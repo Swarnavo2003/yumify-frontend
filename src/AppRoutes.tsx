@@ -28,6 +28,14 @@ const AppRoutes = () => {
             </Layout>
           }
         />
+        <Route
+          path="/manage-restaurant"
+          element={
+            <Layout>
+              <h2>Manage Restaurant</h2>
+            </Layout>
+          }
+        />
       </Route>
 
       <Route path="*" element={<Navigate to="/" />} />
